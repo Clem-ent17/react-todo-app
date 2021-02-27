@@ -1,5 +1,9 @@
 export default function TodoForm(props) {
+
     return (
-      <p>form</p>
+      <div>
+        <input type="text" onChange={props.inputFunction}/>
+        <button onClick={props.submitFunction}>Submit</button>
+      </div>
     );
 }

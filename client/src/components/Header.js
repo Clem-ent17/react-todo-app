@@ -1,5 +1,5 @@
 export default function Header() {
     return (
-      <p>Header</p>
+      <h1>Todo List</h1>
     );
 }
